@@ -1,5 +1,1 @@
-
-
-
-
-print ("Hello world \nEstou testando o meu branch")
+print("Hello world \nEstou testando o meu branch")
