@@ -1,4 +1,4 @@
-print ("teste de comit Artur Braz")
+print ("teste de commit Artur Braz")
 
 
 
