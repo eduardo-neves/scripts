@@ -1,18 +1,8 @@
-#from connection import conexao
+from operacoes import Operacoes
 
-class musica:
-    def __init__(self, nome, autor, genero):
-        self.nome = nome
-        self.autor = autor
-        self.genero = genero
-
-    def apresentarDados(self):
-        print(self.autor, "-", self.nome)
-        print("Gênero:", self.genero)
-
-
-novaMusica = musica("Tribe 303", "Aero Chord", "Trap/Psytrance")
-novaMusica.apresentarDados()
-
-
-
+op = Operacoes()
+nome = str(input("Insira o nome: "))
+autor = str(input("Insira o autor: "))
+genero = str(input("Insira o gênero: "))
+op.salvar(nome, autor, genero)
+op.buscar()
